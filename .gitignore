@@ -1,0 +1,15 @@
+### General ###
+*.*~
+
+### VS ###
+/Cornerlunch.pyproj*
+/conerlunchenv
+/obj
+
+### Django ###
+media
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
