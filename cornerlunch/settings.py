@@ -28,10 +28,13 @@ DEBUG = False
 # Single site/host/domain solution
 ALLOWED_HOSTS = [ALLOWED_HOST]
 
+# Custom user model
+AUTH_USER_MODEL = 'users.User'
 
 # Application definition
 
 INSTALLED_APPS = [
+    'users.apps.UsersConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
