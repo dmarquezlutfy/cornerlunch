@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'dailymenus.apps.DailyMenusConfig',
 ]
 
 MIDDLEWARE = [
